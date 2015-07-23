@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Подбор стран</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <div class="wrapper">
+      <div class="form">
+        <h2 class="form__title">Подбор страны</h2>
+        <div class="form__body">
+          <form>
+          <div class="form__choose__type">
+            <div class="form__choose__type__title">Чего хочется?</div>
+            <select>
+              <option selected value="beach">Валяться на пляже</option>
+              <option value="sight">Смотреть достопримечательности</option>
+              <option value="fun">Гулять по барам</option>
+              <option value="nature">Быть на природе</option>
+            </select>
+          </div>
+          <div class="form__choose__cost">
+            <div class="form__choose__type__title">По деньгам</div>
+            <select>
+              <option value="low">нужно подешевле</option>
+              <option selected value="mid">средне</option>
+              <option value="high">не в деньгах счастье</option>
+            </select>
+          </div>
+          <div class="button">Найти страну</div>
+        </form>
+        </div>
+      </div>
+
+      <div class="ans">
+        <h2 class="answer__title">Тебе подойдет страна</h2>
+        <div class="answer">
+          <div class="answer__name"><img src="img/franceflag.png" alt=""> Франция</div>
+          <div class="answer__item">Авиабилеты <span class="highlight">от 25 000 руб. </span><span class="more">подробнее</span></div>
+          <div class="answer__item">Погода <span class="highlight">солнечная</span></div>
+          <div class="answer__item">Нужна <span class="highlight">Шенгенская виза</span></div>
+          <div class="answer__another">Найти другую страну</div>
+        </div>
+      </div>
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

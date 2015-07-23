@@ -1,0 +1,96 @@
+// out: styles.css
+
+
+body {
+  margin: 0;
+  background-image: url(img/nicebg1.jpg);
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+
+  &::before {
+    content: '';
+    height: 100%;
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+  }
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color:white;
+}
+
+.form__body, .answer {
+  background-color: white;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.ans {
+  display:none;
+
+}
+
+.answer {
+  position:relative;
+
+  &__title {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__name {
+    font-weight:bold;
+    font-size:18px;
+  }
+
+  &__item {
+    margin-top:10px
+  }
+
+}
+
+.button, .answer__another {
+  background-color: darkseagreen;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-top: 20px;
+  color:white;
+  cursor:pointer;
+}
+
+select {
+  width: 100%;
+  height: 28px;
+  margin-top: 5px;
+}
+
+.form__choose__cost {
+  margin-top: 20px;
+}
+
+.highlight {
+  color:black;
+}
+
+.more {
+  color: limegreen;
+  cursor:pointer;
+}
