@@ -24,6 +24,8 @@ body::before {
 h2 {
   text-align: center;
   color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .form__body,
 .answer {
